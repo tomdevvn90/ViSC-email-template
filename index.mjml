@@ -6,47 +6,36 @@
       <mj-text padding="0" />
       <mj-section background-color="#fff" />
       <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" />
-      <mj-all font-family="Arial" line-height="1.5" />
+      <mj-all font-family="Montserrat, sans-serif" line-height="1.5" text-decoration="none" />
     </mj-attributes>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" />
+    <mj-style> a { text-decoration: none !important; } </mj-style>
   </mj-head>
+  <!-- Start Body -->
   <mj-body background-color="#14579E">
     <!-- Header -->
     <mj-include path="./header.mjml" />
     <!-- End header -->
+    <!-- Start content -->
+    <!-- <mj-include path="./content.mjml" /> -->
     <mj-section>
       <mj-column>
+        <mj-spacer height="20px" />
         <mj-text mj-class="heading">Here’s your ViSC invite!</mj-text>
-        <mj-spacer height="10px" />
-        <mj-text padding="0px 60px" font-size="14px" line-height="1.5"> We can’t wait for you to see what we have in store for ViSC this year.</mj-text>
-        <mj-spacer height="25px" />
-        <mj-text padding="0px 60px" font-size="14px" line-height="1.5">You’ll need this email on the day to join the conference. To log in to ViSC click the link below and enter your pin when requested.</mj-text>
-        <mj-social>
-          <mj-social-element name="facebook" />
-        </mj-social>
-        <mj-button href="#"> Hello There! </mj-button>
+        <mj-spacer height="16px" />
+        <mj-text padding="0px 60px" font-size="14px"> We can’t wait for you to see what we have in store for ViSC this year.</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text padding="0px 60px" font-size="14px">You’ll need this email on the day to join the conference. To log in to ViSC click the link below and enter your pin when requested.</mj-text>
+        <mj-spacer height="24px" />
+        <mj-text font-size="10px" font-weight="500" text-transform="uppercase" padding="0">Your login pin</mj-text>
+        <mj-spacer height="6px" />
+        <mj-button background-color="#E7EBEE" color="black" border-radius="32px" font-weight="bold" letter-spacing="5.18px" font-size="24px" padding="0" inner-padding="14px 15px"> 632876 </mj-button>
       </mj-column>
     </mj-section>
-    <mj-section background-color="#16375D">
-      <mj-column vertical-align="middle">
-        <!-- Your first column -->
-        <mj-image align="left" width="168px" src="./assets/logo-binnacle.svg" alt="logo" />
-      </mj-column>
-      <!-- Socials column -->
-      <mj-column vertical-align="middle">
-        <mj-text color='white' align="center">
-          <h2>Responsive</h2>
-        </mj-text>
-        <mj-social icon-size="24px" mode="horizontal">
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="transparent" padding="0">
-      <mj-column>
-        <mj-spacer height="70px" />
-      </mj-column>
-    </mj-section>
+    <!-- End content -->
+    <!-- Start footer -->
+    <mj-include path="./footer.mjml" />
+    <!-- End footer -->
   </mj-body>
+  <!-- End Body -->
 </mjml>

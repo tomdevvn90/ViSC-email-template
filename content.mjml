@@ -1,0 +1,14 @@
+<mj-section>
+  <mj-column>
+    <mj-spacer height="20px" />
+    <mj-text mj-class="heading">Here’s your ViSC invite!</mj-text>
+    <mj-spacer height="16px" />
+    <mj-text padding="0px 60px" font-size="14px" line-height="1.5"> We can’t wait for you to see what we have in store for ViSC this year.</mj-text>
+    <mj-spacer height="20px" />
+    <mj-text padding="0px 60px" font-size="14px" line-height="1.5">You’ll need this email on the day to join the conference. To log in to ViSC click the link below and enter your pin when requested.</mj-text>
+    <mj-social>
+      <mj-social-element name="facebook" />
+    </mj-social>
+    <mj-button href="#"> Hello There! </mj-button>
+  </mj-column>
+</mj-section>
