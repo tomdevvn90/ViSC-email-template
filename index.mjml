@@ -1,0 +1,44 @@
+<mjml>
+  <mj-head>
+    <mj-title>Hello MJML</mj-title>
+    <mj-attributes>
+      <mj-text align="center" color="#555" />
+      <mj-text padding="0" />
+      <mj-section background-color="#fff" />
+      <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" />
+    </mj-attributes>
+  </mj-head>
+  <mj-body background-color="#14579E">
+    <mj-section background-color="transparent" padding="0">
+      <mj-column>
+        <mj-spacer height="50px" />
+      </mj-column>
+    </mj-section>
+    <mj-hero mode="fixed-height" height="424px" background-width="600px" background-height="424px" background-url="./assets/header-image@2x.png" background-color="#14579E">
+    </mj-hero>
+    <!-- <mj-section background-size="contain" background-repeat="no-repeat" background-url="./assets/header-image@2x.png" padding="0" padding-bottom="424px" border-radius="14px 14px 0 0">
+      <mj-column width="600px">
+        <mj-image src="./assets/header-image@2x.png"></mj-image>
+      </mj-column>
+    </mj-section>-->
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="heading" line-height="1.5">Here’s your ViSC invite!</mj-text>
+        <mj-spacer height="20px" />
+        <mj-text font-size="14px" line-height="1.5"> We can’t wait for you to see what we have in store for ViSC this year.</mj-text>
+        <mj-spacer height="25px" />
+        <mj-text font-size="14px" line-height="1.5">You’ll need this email on the day to join the conference. To log in to<br /> ViSC click the link below and enter your pin when requested.</mj-text>
+        <mj-social>
+          <mj-social-element name="facebook" />
+        </mj-social>
+        <mj-button href="#"> Hello There! </mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section border-radius=" 0 0 14px 14px"></mj-section>
+    <mj-section background-color="transparent" padding="0">
+      <mj-column>
+        <mj-spacer height="70px" />
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
