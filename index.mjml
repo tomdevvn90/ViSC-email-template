@@ -41,7 +41,7 @@
     <mj-section>
       <mj-column>
         <mj-text mj-class="heading __small">How to log in</mj-text>
-        <mj-image href="#" width="355px" src="./assets/video-example@2x.jpg"></mj-image>
+        <mj-image href="#" width="355px" src="https://tomdevvn90.github.io/visc/assets/video-example@2x.jpg"></mj-image>
         <mj-spacer height="6px" />
         <mj-text font-size="14px">For a demonstration on how to logo in, <a href="#" style="color:#D9126D;">watch this video.</a></mj-text>
         <mj-spacer height="20px" />
