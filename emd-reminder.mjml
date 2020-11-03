@@ -6,65 +6,43 @@
       <mj-text padding="0" />
       <mj-section background-color="#fff" />
       <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" />
-      <mj-class name="heading-small" font-size="24px" font-weight="bold" color="rgba(0,0,0,0.87)" />
-      <mj-class name="title" font-size="16px" font-weight="bold" color="rgba(0,0,0,0.87)" />
-      <mj-all font-family="Arial" line-height="1.5" />
+      <mj-class name="__small" font-size="24px" />
+      <mj-all font-family="Montserrat, sans-serif" line-height="1.5" text-decoration="none" />
     </mj-attributes>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" />
+    <mj-style> a { text-decoration: none !important; } </mj-style>
   </mj-head>
   <mj-body background-color="#14579E">
     <!-- Header -->
     <mj-include path="./header.mjml" />
     <!-- End header -->
-    <mj-section padding="20px 40px" >
-        <mj-column>
-					<mj-text mj-class="heading">
-						ViSC is almost here!
-					</mj-text>
-					<mj-text>
-						Binnacle Training are going to be finishing 2020 with a bang. This year ViSC might look a little different but it doesn’t mean it won’t still be a great day. Here are some program highlights.
-					</jm-text>
-        </mj-column>
-    </mj-section>
-		<mj-section>
-			<mj-column>
-				<mj-text mj-class="heading-small">Keynote speakers</mj-text>
-			</mj-column>
-		</mj-section>
-		<mj-section padding="0 20px">
-			<mj-column padding="0 10px">
-				<mj-image padding="0" src="./assets/image-ali-hill@2x.jpg" />
-				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left">The two key drivers of change</mj-text>
-				<mj-text align="left">ALI HILL</mj-text>
-			</mj-column>
-			<mj-column padding="0 10px">
-				<mj-image padding="0" src="./assets/image-jacqui-bell@2x.jpg" />
-				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left">A Rebellion to Run</mj-text>
-				<mj-text align="left">JACQUI BELL</mj-text>
-			</mj-column>
-		</mj-section>
-    <mj-section background-color="#16375D">
-      <mj-column vertical-align="middle">
-        <!-- Your first column -->
-        <mj-image align="left" width="168px" src="./assets/logo-binnacle.svg" alt="logo" />
-      </mj-column>
-      <!-- Socials column -->
-      <mj-column vertical-align="middle">
-        <mj-text color='white' align="center">
-          <h2>Responsive</h2>
-        </mj-text>
-        <mj-social icon-size="24px" mode="horizontal">
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="transparent" padding="0">
+    <mj-section padding="20px 40px">
       <mj-column>
-        <mj-spacer height="70px" />
+        <mj-text mj-class="heading"> ViSC is almost here! </mj-text>
+        <mj-text> Binnacle Training are going to be finishing 2020 with a bang. This year ViSC might look a little different but it doesn’t mean it won’t still be a great day. Here are some program highlights. </jm-text>
       </mj-column>
     </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-text mj-class="heading-small">Keynote speakers</mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding="0 20px">
+      <mj-column padding="0 10px">
+        <mj-image padding="0" src="./assets/image-ali-hill@2x.jpg" />
+        <mj-spacer height="10px" />
+        <mj-text mj-class="title" align="left">The two key drivers of change</mj-text>
+        <mj-text align="left">ALI HILL</mj-text>
+      </mj-column>
+      <mj-column padding="0 10px">
+        <mj-image padding="0" src="./assets/image-jacqui-bell@2x.jpg" />
+        <mj-spacer height="10px" />
+        <mj-text mj-class="title" align="left">A Rebellion to Run</mj-text>
+        <mj-text align="left">JACQUI BELL</mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- Start footer -->
+    <mj-include path="./footer.mjml" />
+    <!-- End footer -->
   </mj-body>
 </mjml>

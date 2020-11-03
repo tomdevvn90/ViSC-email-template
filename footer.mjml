@@ -1,16 +1,16 @@
 <mj-section background-color="#16375D">
   <!-- Footer logo column -->
   <mj-column padding="20px 40px" vertical-align="middle">
-    <mj-image href="#" padding="0" width="168px" src="./assets/logo-binnacle.svg" alt="logo" />
+    <mj-image href="#" padding="0" width="168px" src="./assets/logo-binnacle.png" alt="logo" />
   </mj-column>
   <!-- Footer socials column -->
   <mj-column vertical-align="middle" padding="20px 40px">
-    <mj-text font-weight="500" color='white' font-size="18px">Connect with us </mj-text>
+    <mj-text align="center" font-weight="500" color='white' font-size="18px">Connect with us </mj-text>
     <mj-social padding="0" icon-size="24px" mode="horizontal">
-      <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-      <mj-social-element src="./assets/social-icons/linked-in.svg" href="#"></mj-social-element>
-      <mj-social-element src="./assets/social-icons/twitter.svg" href="#"></mj-social-element>
-      <mj-social-element src="./assets/social-icons/insta.svg" href="#"></mj-social-element>
+      <mj-social-element src="./assets/social-icons/icon-fb.png" href="#"></mj-social-element>
+      <mj-social-element src="./assets/social-icons/icon-lin.png" href="#"></mj-social-element>
+      <mj-social-element src="./assets/social-icons/icon-tw.png" href="#"></mj-social-element>
+      <mj-social-element src="./assets/social-icons/icon-inta.png" href="#"></mj-social-element>
     </mj-social>
   </mj-column>
 </mj-section>
