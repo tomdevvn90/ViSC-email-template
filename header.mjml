@@ -1,5 +1,11 @@
-<mj-section padding='0'>
-  <mj-column width="600px" padding="0">
-    <mj-image src="./assets/header-image@2x.png"></mj-image>
+<mj-section background-color="transparent" padding="0">
+  <mj-column>
+    <mj-spacer height="50px" />
   </mj-column>
 </mj-section>
+<mj-hero mode="fixed-height" height="424px" background-width="600px" background-height="424px" background-url="./assets/header-image@2x.png" background-color="#14579E"></mj-hero>
+<!-- <mj-section background-size="contain" background-repeat="no-repeat" background-url="./assets/header-image@2x.png" padding="0" padding-bottom="424px" border-radius="14px 14px 0 0">
+      <mj-column width="600px">
+        <mj-image src="./assets/header-image@2x.png"></mj-image>
+      </mj-column>
+    </mj-section>-->
