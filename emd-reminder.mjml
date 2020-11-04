@@ -3,7 +3,7 @@
     <mj-title>ViSC Email</mj-title>
     <mj-attributes>
       <mj-text align="center" color="#000" />
-      <mj-text padding="0" font-weight="bold" />
+      <mj-text padding="0" />
       <mj-section background-color="#fff" />
       <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" line-height="34px" />
       <mj-class name="__small" font-size="24px" line-height="24px" />
@@ -53,11 +53,11 @@
 			<mj-column padding="0 10px">
 				<mj-image padding="0" src="https://tomdevvn90.github.io/visc/assets/image-ali-hill@2x.jpg" />
 				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left" css-class="mobi-text-center">
+				<mj-text mj-class="title" align="left" css-class="mobi-text-center" font-weight="bold">
           <singleline>The two key drivers of change</singleline>
         </mj-text>
         <mj-spacer height="3px" />
-        <mj-text align="left" font-size="10px" css-class="mobi-text-center">
+        <mj-text align="left" font-size="10px" css-class="mobi-text-center" >
           <singleline>ALI HILL</singleline>
         </mj-text>
         <mj-spacer />
@@ -65,7 +65,7 @@
 			<mj-column padding="0 10px" >
 				<mj-image padding="0" src="https://tomdevvn90.github.io/visc/assets/image-jacqui-bell@2x.jpg" />
 				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left" css-class="mobi-text-center">
+				<mj-text mj-class="title" align="left" css-class="mobi-text-center" font-weight="bold">
           <singleline>A Rebellion to Run</singleline>
         </mj-text>
         <mj-spacer height="3px" />
@@ -154,8 +154,8 @@
           <multiline>We look forward to seeing you on the day! To join the conference, click the link below and enter your pin when requested.</multiline>
           </mj-text>
         <mj-spacer />
-        <mj-text>
-          <singleline>Your login pin</singleline>
+        <mj-text font-size="10px" letter-spacing="1px">
+          <singleline>YOUR LOGIN PIN</singleline>
         </mj-text>
         <mj-button mj-class="pin-number">
           <singleline>6 3 2 8 7 6</singleline>
