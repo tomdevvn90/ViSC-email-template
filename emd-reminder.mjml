@@ -22,6 +22,10 @@
         .mobi-align-center * {
           margin: 0 auto !important;
         }
+
+        .remove-padding-top {
+          padding-top: 0 !important;
+        }
       }
     </mj-style>
   </mj-head>
@@ -117,8 +121,8 @@
         <mj-spacer height="10px" />
       </mj-column>
       <mj-column padding-left="5%" width="91.5%">
-        <mj-text align="left">
-          <multiline>Book out a room in your school and get all your school’s delivers in one place so you can watch it together.</multiline>
+        <mj-text align="left" padding-top="12px" css-class="remove-padding-top">
+          <multiline>Make sure you have a good internet connection </multiline>
         </mj-text>
       </mj-column>
 		</mj-section>
@@ -135,7 +139,7 @@
 			</mj-column>
       <mj-column padding-left="5%" width="91.5%">
         <mj-text align="left">
-          <multiline>Book out a room in your school and get all your school’s delivers in one place so you can watch it together.</multiline>
+          <multiline>Log in to the Virtual Platform early, make sure you are comfortable and familiar with the system.</multiline>
         </mj-text>
       </mj-column>
 		</mj-section>
