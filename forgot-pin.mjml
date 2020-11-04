@@ -5,7 +5,7 @@
       <mj-text align="center" color="#555" />
       <mj-text padding="0" />
       <mj-section background-color="#fff" />
-      <mj-class name="heading" font-size="34px" padding-left="20px" padding-right="20px" font-weight="bold" color="rgba(0,0,0,0.87)" />
+      <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" />
       <mj-class name="__small" font-size="24px" />
       <mj-all font-family="Montserrat, sans-serif" line-height="1.5" text-decoration="none" />
     </mj-attributes>
@@ -18,22 +18,31 @@
     <mj-include path="./header.mjml" />
     <!-- End header -->
     <!-- Start content -->
-    <!-- <mj-include path="./content.mjml" /> -->
-    <mj-section>
+    <mj-section padding-left="30px" padding-right="30px">
       <mj-column>
         <mj-spacer height="20px" />
-        <mj-text mj-class="heading">You dropped this!</mj-text>
+        <mj-text mj-class="heading">
+          <multiline>You dropped this!</multiline>
+        </mj-text>
         <mj-spacer height="16px" />
-        <mj-text padding="0px 40px" font-size="14px">Here’s your new ViSC pin, click the link below and enter your pin when requested to join the conference.</mj-text>
+        <mj-text font-size="14px">
+          <multiline>Here’s your new ViSC pin, click the link below and enter your pin when requested to join the conference.</multiline>
+        </mj-text>
         <mj-spacer height="24px" />
-        <mj-text font-size="10px" font-weight="500" text-transform="uppercase" padding="0">Your new login pin</mj-text>
+        <mj-text font-size="10px" font-weight="500" text-transform="uppercase" padding="0">
+          <singleline label="Your new login pin">Your new login pin</singleline>
+        </mj-text>
         <mj-spacer height="6px" />
         <mj-button background-color="#E7EBEE" color="black" border-radius="32px" font-weight="bold" letter-spacing="5.18px" font-size="24px" padding="0" inner-padding="14px 15px"> 632876 </mj-button>
         <mj-spacer height="32px" />
         <mj-button href="#" background-color="#FF0079" color="white" border-radius="4px" font-weight="bold" letter-spacing="1.43px" text-transform="uppercase" font-size="16px" padding="0" inner-padding="12px 15px"> Join the conference </mj-button>
         <mj-spacer height="12px" />
-        <mj-text padding="0px 40px" font-size="12px">Conference can be joined from 8:00am AEST for an 8:15am start on 27.11.2020</mj-text>
-        <mj-text padding="0px 40px" font-size="12px">If you are having trouble logging in please contact our team on 1300 303 715</mj-text>
+        <mj-text font-size="12px">
+          <multiline>Conference can be joined from 8:00am AEST for an 8:15am start on 27.11.2020</multiline>
+        </mj-text>
+        <mj-text font-size="12px">
+          <multiline>If you are having trouble logging in please contact our team on 1300 303 715</multiline>
+        </mj-text>
       </mj-column>
     </mj-section>
     <!-- End content -->
