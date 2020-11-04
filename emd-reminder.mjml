@@ -2,14 +2,28 @@
   <mj-head>
     <mj-title>ViSC Email</mj-title>
     <mj-attributes>
-      <mj-text align="center" color="#555" />
+      <mj-text align="center" color="#000" />
       <mj-text padding="0" font-weight="bold" />
       <mj-section background-color="#fff" />
-      <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" />
-      <mj-class name="heading-small" font-size="24px" font-weight="bold" color="rgba(0,0,0,0.87)" />
-      <mj-class name="title" font-size="16px" font-weight="bold" color="rgba(0,0,0,0.87)" />
-      <mj-all font-family="Arial" line-height="1.5" />
+      <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" line-height="34px" />
+      <mj-class name="__small" font-size="24px" line-height="24px" />
+      <mj-class name="pin-number" font-size="24px" font-weight="bold" color="rgba(0, 0, 0, 0.87)" background-color="#e7ebee" border-radius="40px" />
+      <mj-class name="button-primary" font-size="16px" color="white" background-color="#ff0079" font-weight="bold" />
+      <mj-all font-family="Montserrat, sans-serif" line-height="1.5" text-decoration="none" />
     </mj-attributes>
+    <mj-font name="Montserrat" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" />
+    <mj-style> a { text-decoration: none !important; } </mj-style>
+    <mj-style>
+      @media(max-width: 479px) {
+        .mobi-text-center * {
+          text-align: center !important;
+        }
+
+        .mobi-align-center * {
+          margin: 0 auto !important;
+        }
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#14579E">
     <!-- Header -->
@@ -17,89 +31,147 @@
     <!-- End header -->
     <mj-section padding="20px 40px" >
         <mj-column>
+          <mj-spacer />
 					<mj-text mj-class="heading">
-						ViSC is almost here!
-					</mj-text>
+            <singleline label="ViSC is almost here!" >ViSC is almost here!</singleline >
+          </mj-text>
+          <mj-spacer height="14px" />
 					<mj-text>
-						Binnacle Training are going to be finishing 2020 with a bang. This year ViSC might look a little different but it doesn’t mean it won’t still be a great day. Here are some program highlights.
-					</jm-text>
+            <multiline>Binnacle Training are going to be finishing 2020 with a bang. This year ViSC might look a little different but it doesn’t mean it won’t still be a great day. Here are some program highlights.</multiline>
+          </mj-text>
         </mj-column>
     </mj-section>
 		<!-- Features -->
 		<mj-section>
 			<mj-column>
-				<mj-text mj-class="heading-small">Keynote speakers</mj-text>
+				<mj-text mj-class="heading __small">
+          <singleline>Keynote speakers</singleline>
+        </mj-text>
 			</mj-column>
 		</mj-section>
 		<mj-section padding="0 20px">
 			<mj-column padding="0 10px">
 				<mj-image padding="0" src="./assets/image-ali-hill@2x.jpg" />
 				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left">The two key drivers of change</mj-text>
-				<mj-text align="left">ALI HILL</mj-text>
+				<mj-text mj-class="title" align="left" css-class="mobi-text-center">
+          <singleline>The two key drivers of change</singleline>
+        </mj-text>
+        <mj-spacer height="3px" />
+        <mj-text align="left" font-size="10px" css-class="mobi-text-center">
+          <singleline>ALI HILL</singleline>
+        </mj-text>
+        <mj-spacer />
 			</mj-column>
-			<mj-column padding="0 10px">
+			<mj-column padding="0 10px" >
 				<mj-image padding="0" src="./assets/image-jacqui-bell@2x.jpg" />
 				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left">A Rebellion to Run</mj-text>
-				<mj-text align="left">JACQUI BELL</mj-text>
+				<mj-text mj-class="title" align="left" css-class="mobi-text-center">
+          <singleline>A Rebellion to Run</singleline>
+        </mj-text>
+        <mj-spacer height="3px" />
+				<mj-text align="left" font-size="10px" css-class="mobi-text-center">
+          <singleline>JACQUI BELL</singleline>
+        </mj-text>
+        <mj-spacer />
 			</mj-column>
 		</mj-section>
 		<!-- Features 2 -->
-		<mj-section padding="20px 40px">
+		<mj-section padding="0px 40px 20px">
 			<mj-column>
-				<mj-text mj-class="heading-small">How to maximise the day</mj-text>
-				<mj-text>This year won’t have the fun and games that we normally do each year, here are some actions you can take to make sure you to enjoy the day.</mj-text>
-			</mj-column>
-		</mj-section>
-    <!-- Check 1 -->
-		<mj-section padding="20px 40px" mj-class="border-top" >
-			<mj-column width="8.5%">
-				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
-			</mj-column>
-      <mj-column padding-left="5%" width="91.5%">
-        <mj-text align="left">Book out a room in your school and get all your school’s delivers in one place so you can watch it together. </mj-text>
-      </mj-column>
-		</mj-section>
-    <!-- Check 2 -->
-		<mj-section padding="20px 40px">
-			<mj-column width="8.5%">
-				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
-			</mj-column>
-      <mj-column padding-left="5%" width="91.5%">
-        <mj-text align="left">Book out a room in your school and get all your school’s delivers in one place so you can watch it together. </mj-text>
-      </mj-column>
-		</mj-section>
-    <!-- Check 3 -->
-		<mj-section padding="20px 40px">
-			<mj-column width="8.5%">
-				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
-			</mj-column>
-      <mj-column padding-left="5%" width="91.5%">
-        <mj-text align="left">Book out a room in your school and get all your school’s delivers in one place so you can watch it together. </mj-text>
-      </mj-column>
-		</mj-section>
-    <mj-section background-color="#16375D">
-      <mj-column vertical-align="middle">
-        <!-- Your first column -->
-        <mj-image align="left" width="168px" src="./assets/logo-binnacle.svg" alt="logo" />
-      </mj-column>
-      <!-- Socials column -->
-      <mj-column vertical-align="middle">
-        <mj-text color='white' align="center">
-          <h2>Responsive</h2>
+        <mj-spacer />
+				<mj-text mj-class="heading __small">
+          <singleline>How to maximise the day</singleline>
         </mj-text>
-        <mj-social icon-size="24px" mode="horizontal">
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-          <mj-social-element src="./assets/social-icons/facebook.svg" href="#"></mj-social-element>
-        </mj-social>
-      </mj-column>
-    </mj-section>
-    <mj-section background-color="transparent" padding="0">
+        <mj-spacer height="14px" />
+				<mj-text>
+          <multiline>This year won’t have the fun and games that we normally do each year, here are some actions you can take to make sure you to enjoy the day.</multiline>
+        </mj-text>
+			</mj-column>
+		</mj-section>
+    <mj-section padding="0 20px">
       <mj-column>
-        <mj-spacer height="70px" />
+        <mj-divider border-width="1px" border-style="solid" border-color="#dbe1e6" />
       </mj-column>
     </mj-section>
+    <!-- Check 1 -->
+		<mj-section padding="10px 40px" >
+			<mj-column width="8.5%" css-class="mobi-align-center">
+				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+        <mj-spacer height="10px" />
+			</mj-column>
+      <mj-column padding-left="5%" width="91.5%">
+        <mj-text align="left">
+          <multiline>Book out a room in your school and get all your school’s delivers in one place so you can watch it together.</multiline>
+        </mj-text>
+      </mj-column>
+		</mj-section>
+    <mj-section padding="0 20px">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#dbe1e6" />
+      </mj-column>
+    </mj-section>
+    <!-- Check 2 -->
+		<mj-section padding="10px 40px">
+			<mj-column width="8.5%" css-class="mobi-align-center">
+				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+        <mj-spacer height="10px" />
+      </mj-column>
+      <mj-column padding-left="5%" width="91.5%">
+        <mj-text align="left">
+          <multiline>Book out a room in your school and get all your school’s delivers in one place so you can watch it together.</multiline>
+        </mj-text>
+      </mj-column>
+		</mj-section>
+    <mj-section padding="0 20px">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#dbe1e6" />
+      </mj-column>
+    </mj-section>
+    <!-- Check 3 -->
+		<mj-section padding="10px 40px">
+			<mj-column width="8.5%" css-class="mobi-align-center">
+				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+        <mj-spacer height="10px" />
+			</mj-column>
+      <mj-column padding-left="5%" width="91.5%">
+        <mj-text align="left">
+          <multiline>Book out a room in your school and get all your school’s delivers in one place so you can watch it together.</multiline>
+        </mj-text>
+      </mj-column>
+		</mj-section>
+    <mj-section padding="0 20px">
+      <mj-column>
+        <mj-divider border-width="1px" border-style="solid" border-color="#dbe1e6" />
+      </mj-column>
+    </mj-section>
+    <mj-section padding="20px 40px">
+      <mj-column>
+        <mj-text mj-class="heading __small">
+          <singleline>Here’s your ViSC invite!</singleline>
+        </mj-text>
+        <mj-spacer height="14px" />
+        <mj-text>
+          <multiline>We look forward to seeing you on the day! To join the conference, click the link below and enter your pin when requested.</multiline>
+          </mj-text>
+        <mj-spacer />
+        <mj-text>
+          <singleline>Your login pin</singleline>
+        </mj-text>
+        <mj-button mj-class="pin-number">
+          <singleline>6 3 2 8 7 6</singleline>
+        </mj-button>
+        <mj-spacer />
+        <mj-button mj-class="button-primary">
+          <singleline>JOIN THE CONFERENCE</singleline>
+        </mj-button>
+        <mj-text font-size="12px" color="rgba(18, 18, 18, 0.74)">
+          <multiline>Conference can be joined from 8:00am AEST for an 8:15am start on 27.11.2020 If you are having trouble logging in please contact our team on 1300 303 715</multiline>
+        </mj-text>
+        <mj-spacer />
+      </mj-column>
+    </mj-section>
+    <!-- Start footer -->
+    <mj-include path="./footer.mjml" />
+    <!-- End footer -->
   </mj-body>
 </mjml>
