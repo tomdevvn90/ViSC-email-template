@@ -1,7 +1,11 @@
-
 <mj-section background-color="transparent" padding="0">
   <mj-column>
     <mj-spacer height="50px" />
   </mj-column>
 </mj-section>
-<mj-hero mode="fixed-height" height="424px" background-width="600px" background-height="424px" background-url="https://tomdevvn90.github.io/visc/assets/header-image@2x.png" background-color="#14579E"></mj-hero>
+<!--<mj-hero mode="fixed-height" height="424px" background-width="600px" background-height="424px" background-url="https://tomdevvn90.github.io/visc/assets/header-image@2x.png" background-color="#14579E"></mj-hero>-->
+<mj-section padding="0">
+  <mj-column>
+    <mj-image container-background-color="#14579E" padding="0" src="https://tomdevvn90.github.io/visc/assets/header-image@2x.png"></mj-image>
+  </mj-column>
+</mj-section>
