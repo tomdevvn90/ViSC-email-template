@@ -5,7 +5,9 @@
   </mj-column>
   <!-- Footer socials column -->
   <mj-column vertical-align="middle" padding="20px 40px">
-    <mj-text align="center" font-weight="500" color='white' font-size="18px">Connect with us </mj-text>
+    <mj-text align="center" font-weight="500" color='white' font-size="18px">
+      <singleline label="Connect with us">Connect with us </singleline>
+    </mj-text>
     <mj-social padding="0" icon-size="24px" mode="horizontal">
       <mj-social-element src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-fb.png" href="#"></mj-social-element>
       <mj-social-element src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-lin.png" href="#"></mj-social-element>
@@ -17,13 +19,18 @@
 <mj-section background-color="transparent" padding="0">
   <mj-column>
     <mj-spacer height="16px" />
-    <mj-text color="white" font-size="12px"> © Copyright 2020. All rights reserved. </mj-text>
     <mj-text color="white" font-size="12px">
-      <a style="color: white;" href="https://www.binnacletraining.com.au" target="_blank">www.binnacletraining.com.au</a> | <a style="color: white;" href="tel:1300 303 715">1300 303 715</a>
+      <singleline label="© Copyright 2020. All rights reserved."> © Copyright 2020. All rights reserved. </singleline>
+    </mj-text>
+    <mj-text color="white" font-size="12px">
+      <singleline label="www.binnacletraining.com.au | 1300 303 715">
+        <a style="color: white;" href="https://www.binnacletraining.com.au" target="_blank">www.binnacletraining.com.au</a> | <a style="color: white;" href="tel:1300 303 715">1300 303 715</a></singleline>
     </mj-text>
     <mj-spacer height="12px" />
     <mj-text font-size="12px">
-      <a style="color: #4DD3FF" target="_blank" href="#">View in browser</a>
+      <singleline label="View in browser">
+        <a style="color: #4DD3FF" target="_blank" href="#">View in browser</a>
+      </singleline>
     </mj-text>
   </mj-column>
 </mj-section>
