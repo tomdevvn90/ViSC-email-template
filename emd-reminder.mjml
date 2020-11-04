@@ -51,7 +51,7 @@
 		</mj-section>
 		<mj-section padding="0 20px">
 			<mj-column padding="0 10px">
-				<mj-image padding="0" src="./assets/image-ali-hill@2x.jpg" />
+				<mj-image padding="0" src="https://tomdevvn90.github.io/visc/assets/image-ali-hill@2x.jpg" />
 				<mj-spacer height="10px" />
 				<mj-text mj-class="title" align="left" css-class="mobi-text-center">
           <singleline>The two key drivers of change</singleline>
@@ -63,7 +63,7 @@
         <mj-spacer />
 			</mj-column>
 			<mj-column padding="0 10px" >
-				<mj-image padding="0" src="./assets/image-jacqui-bell@2x.jpg" />
+				<mj-image padding="0" src="https://tomdevvn90.github.io/visc/assets/image-jacqui-bell@2x.jpg" />
 				<mj-spacer height="10px" />
 				<mj-text mj-class="title" align="left" css-class="mobi-text-center">
           <singleline>A Rebellion to Run</singleline>
@@ -96,7 +96,7 @@
     <!-- Check 1 -->
 		<mj-section padding="10px 40px" >
 			<mj-column width="8.5%" css-class="mobi-align-center">
-				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+				<mj-image padding="0" align="left" src="https://tomdevvn90.github.io/visc/assets/icon-action-check-circle-outline-24-px@2x.png" />
         <mj-spacer height="10px" />
 			</mj-column>
       <mj-column padding-left="5%" width="91.5%">
@@ -113,7 +113,7 @@
     <!-- Check 2 -->
 		<mj-section padding="10px 40px">
 			<mj-column width="8.5%" css-class="mobi-align-center">
-				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+				<mj-image padding="0" align="left" src="https://tomdevvn90.github.io/visc/assets/icon-action-check-circle-outline-24-px@2x.png" />
         <mj-spacer height="10px" />
       </mj-column>
       <mj-column padding-left="5%" width="91.5%">
@@ -130,7 +130,7 @@
     <!-- Check 3 -->
 		<mj-section padding="10px 40px">
 			<mj-column width="8.5%" css-class="mobi-align-center">
-				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+				<mj-image padding="0" align="left" src="https://tomdevvn90.github.io/visc/assets/icon-action-check-circle-outline-24-px@2x.png" />
         <mj-spacer height="10px" />
 			</mj-column>
       <mj-column padding-left="5%" width="91.5%">
