@@ -18,15 +18,14 @@
     <mj-include path="./header.mjml" />
     <!-- End header -->
     <!-- Start content -->
-    <!-- <mj-include path="./content.mjml" /> -->
-    <mj-section>
+    <mj-section padding-left="30px" padding-right="30px">
       <mj-column>
         <mj-spacer height="20px" />
         <mj-text mj-class="heading">Here’s your ViSC invite!</mj-text>
         <mj-spacer height="16px" />
-        <mj-text padding="0px 40px" font-size="14px"> We can’t wait for you to see what we have in store for ViSC this year.</mj-text>
+        <mj-text font-size="14px"> We can’t wait for you to see what we have in store for ViSC this year.</mj-text>
         <mj-spacer height="20px" />
-        <mj-text padding="0px 40px" font-size="14px">You’ll need this email on the day to join the conference. To log in to ViSC click the link below and enter your pin when requested.</mj-text>
+        <mj-text font-size="14px">You’ll need this email on the day to join the conference. To log in to ViSC click the link below and enter your pin when requested.</mj-text>
         <mj-spacer height="24px" />
         <mj-text font-size="10px" font-weight="500" text-transform="uppercase" padding="0">Your login pin</mj-text>
         <mj-spacer height="6px" />
@@ -34,11 +33,11 @@
         <mj-spacer height="32px" />
         <mj-button href="#" background-color="#FF0079" color="white" border-radius="4px" font-weight="bold" letter-spacing="1.43px" text-transform="uppercase" font-size="16px" padding="0" inner-padding="12px 15px"> Join the conference </mj-button>
         <mj-spacer height="12px" />
-        <mj-text padding="0px 40px" font-size="12px">Conference can be joined from 8:00am AEST for an 8:15am start on 27.11.2020</mj-text>
-        <mj-text padding="0px 40px" font-size="12px">If you are having trouble logging in please contact our team on 1300 303 715</mj-text>
+        <mj-text font-size="12px">Conference can be joined from 8:00am AEST for an 8:15am start on 27.11.2020</mj-text>
+        <mj-text font-size="12px">If you are having trouble logging in please contact our team on 1300 303 715</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section padding-left="30px" padding-right="30px">
       <mj-column>
         <mj-text mj-class="heading __small">How to log in</mj-text>
         <mj-image href="#" width="355px" src="https://tomdevvn90.github.io/visc/assets/video-example@2x.jpg"></mj-image>
