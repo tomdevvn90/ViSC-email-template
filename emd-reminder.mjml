@@ -3,7 +3,7 @@
     <mj-title>ViSC Email</mj-title>
     <mj-attributes>
       <mj-text align="center" color="#555" />
-      <mj-text padding="0" />
+      <mj-text padding="0" font-weight="bold" />
       <mj-section background-color="#fff" />
       <mj-class name="heading" font-size="34px" font-weight="bold" color="rgba(0,0,0,0.87)" />
       <mj-class name="heading-small" font-size="24px" font-weight="bold" color="rgba(0,0,0,0.87)" />
@@ -25,6 +25,7 @@
 					</jm-text>
         </mj-column>
     </mj-section>
+		<!-- Features -->
 		<mj-section>
 			<mj-column>
 				<mj-text mj-class="heading-small">Keynote speakers</mj-text>
@@ -43,6 +44,40 @@
 				<mj-text mj-class="title" align="left">A Rebellion to Run</mj-text>
 				<mj-text align="left">JACQUI BELL</mj-text>
 			</mj-column>
+		</mj-section>
+		<!-- Features 2 -->
+		<mj-section padding="20px 40px">
+			<mj-column>
+				<mj-text mj-class="heading-small">How to maximise the day</mj-text>
+				<mj-text>This year won’t have the fun and games that we normally do each year, here are some actions you can take to make sure you to enjoy the day.</mj-text>
+			</mj-column>
+		</mj-section>
+    <!-- Check 1 -->
+		<mj-section padding="20px 40px" mj-class="border-top" >
+			<mj-column width="8.5%">
+				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+			</mj-column>
+      <mj-column padding-left="5%" width="91.5%">
+        <mj-text align="left">Book out a room in your school and get all your school’s delivers in one place so you can watch it together. </mj-text>
+      </mj-column>
+		</mj-section>
+    <!-- Check 2 -->
+		<mj-section padding="20px 40px">
+			<mj-column width="8.5%">
+				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+			</mj-column>
+      <mj-column padding-left="5%" width="91.5%">
+        <mj-text align="left">Book out a room in your school and get all your school’s delivers in one place so you can watch it together. </mj-text>
+      </mj-column>
+		</mj-section>
+    <!-- Check 3 -->
+		<mj-section padding="20px 40px">
+			<mj-column width="8.5%">
+				<mj-image padding="0" align="left" src="./assets/icon-action-check-circle-outline-24-px@2x.png" />
+			</mj-column>
+      <mj-column padding-left="5%" width="91.5%">
+        <mj-text align="left">Book out a room in your school and get all your school’s delivers in one place so you can watch it together. </mj-text>
+      </mj-column>
 		</mj-section>
     <mj-section background-color="#16375D">
       <mj-column vertical-align="middle">
