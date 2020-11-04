@@ -53,7 +53,7 @@
 			<mj-column padding="0 10px">
 				<mj-image padding="0" src="https://tomdevvn90.github.io/visc/assets/image-ali-hill@2x.jpg" />
 				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left" css-class="mobi-text-center" font-weight="bold">
+				<mj-text mj-class="title" align="left" css-class="mobi-text-center" font-weight="bold" font-size="16px">
           <singleline>The two key drivers of change</singleline>
         </mj-text>
         <mj-spacer height="3px" />
@@ -65,7 +65,7 @@
 			<mj-column padding="0 10px" >
 				<mj-image padding="0" src="https://tomdevvn90.github.io/visc/assets/image-jacqui-bell@2x.jpg" />
 				<mj-spacer height="10px" />
-				<mj-text mj-class="title" align="left" css-class="mobi-text-center" font-weight="bold">
+				<mj-text mj-class="title" align="left" css-class="mobi-text-center" font-weight="bold" font-size="16px">
           <singleline>A Rebellion to Run</singleline>
         </mj-text>
         <mj-spacer height="3px" />
