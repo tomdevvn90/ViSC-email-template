@@ -1,0 +1,24 @@
+{
+  "name": "ViSC-email-template",
+  "version": "1.0.0",
+  "description": "Demo: https://tomdevvn90.github.io/visc/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:reminder": "mjml emd-reminder.mjml -o emd-reminder.html",
+    "build:forgot": "mjml forgot-pin.mjml -o forgot-pin.html",
+    "build:index": "mjml index.mjml -o index.html",
+    "build:all": "npm run build:reminder & npm run build:forgot & npm run build:index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomdevvn90/ViSC-email-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tomdevvn90/ViSC-email-template/issues"
+  },
+  "homepage": "https://github.com/tomdevvn90/ViSC-email-template#readme"
+}
