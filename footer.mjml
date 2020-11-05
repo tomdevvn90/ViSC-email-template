@@ -8,11 +8,12 @@
     <mj-text align="center" font-weight="500" color='white' font-size="18px">
       <singleline label="Connect with us">Connect with us </singleline>
     </mj-text>
+    <mj-spacer height="5px" />
     <mj-social padding="0" icon-size="24px" mode="horizontal">
-      <mj-social-element src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-fb.png" href="#"></mj-social-element>
-      <mj-social-element src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-lin.png" href="#"></mj-social-element>
-      <mj-social-element src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-tw.png" href="#"></mj-social-element>
-      <mj-social-element src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-inta.png" href="#"></mj-social-element>
+      <mj-social-element padding="0 10px" src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-fb.png" href="#"></mj-social-element>
+      <mj-social-element padding="0 10px" src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-lin.png" href="#"></mj-social-element>
+      <mj-social-element padding="0 10px" src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-tw.png" href="#"></mj-social-element>
+      <mj-social-element padding="0 10px" src="https://tomdevvn90.github.io/visc/assets/social-icons/icon-inta.png" href="#"></mj-social-element>
     </mj-social>
   </mj-column>
 </mj-section>

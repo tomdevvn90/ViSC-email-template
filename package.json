@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/tomdevvn90/ViSC-email-template/issues"
   },
-  "homepage": "https://github.com/tomdevvn90/ViSC-email-template#readme"
+  "homepage": "https://github.com/tomdevvn90/ViSC-email-template#readme",
+  "dependencies": {
+    "mjml": "^4.7.1"
+  }
 }
